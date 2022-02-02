@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/uwear-shop/static/css/main.6432d884.chunk.css",
-    "main.js": "/uwear-shop/static/js/main.e2ba40fd.chunk.js",
-    "main.js.map": "/uwear-shop/static/js/main.e2ba40fd.chunk.js.map",
+    "main.js": "/uwear-shop/static/js/main.398ebe9c.chunk.js",
+    "main.js.map": "/uwear-shop/static/js/main.398ebe9c.chunk.js.map",
     "runtime-main.js": "/uwear-shop/static/js/runtime-main.45d8c221.js",
     "runtime-main.js.map": "/uwear-shop/static/js/runtime-main.45d8c221.js.map",
     "static/js/2.eef85660.chunk.js": "/uwear-shop/static/js/2.eef85660.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.45d8c221.js",
     "static/js/2.eef85660.chunk.js",
     "static/css/main.6432d884.chunk.css",
-    "static/js/main.e2ba40fd.chunk.js"
+    "static/js/main.398ebe9c.chunk.js"
   ]
 }
