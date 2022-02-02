@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/uwear-shop/static/css/main.6432d884.chunk.css",
+    "main.js": "/uwear-shop/static/js/main.e2ba40fd.chunk.js",
+    "main.js.map": "/uwear-shop/static/js/main.e2ba40fd.chunk.js.map",
+    "runtime-main.js": "/uwear-shop/static/js/runtime-main.45d8c221.js",
+    "runtime-main.js.map": "/uwear-shop/static/js/runtime-main.45d8c221.js.map",
+    "static/js/2.eef85660.chunk.js": "/uwear-shop/static/js/2.eef85660.chunk.js",
+    "static/js/2.eef85660.chunk.js.map": "/uwear-shop/static/js/2.eef85660.chunk.js.map",
+    "index.html": "/uwear-shop/index.html",
+    "static/css/main.6432d884.chunk.css.map": "/uwear-shop/static/css/main.6432d884.chunk.css.map",
+    "static/js/2.eef85660.chunk.js.LICENSE.txt": "/uwear-shop/static/js/2.eef85660.chunk.js.LICENSE.txt",
+    "static/media/ProductCard.scss": "/uwear-shop/static/media/add-to-card.752dd9c5.svg",
+    "static/media/CurrencySelector.scss": "/uwear-shop/static/media/arrow.766d7b11.svg",
+    "static/media/Minicart.scss": "/uwear-shop/static/media/cart.d1995367.svg",
+    "static/media/MinicartItem.scss": "/uwear-shop/static/media/plus-small.806b1e8d.svg",
+    "static/media/CartItem.scss": "/uwear-shop/static/media/plus.6a9f967c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.45d8c221.js",
+    "static/js/2.eef85660.chunk.js",
+    "static/css/main.6432d884.chunk.css",
+    "static/js/main.e2ba40fd.chunk.js"
+  ]
+}
