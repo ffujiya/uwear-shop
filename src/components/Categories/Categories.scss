@@ -1,0 +1,28 @@
+.categories {
+    display: flex;
+    &__item{
+        font-family: 'Raleway', sans-serif;
+        position: relative;
+        color: var(--c-text);
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 16px;
+        text-transform: uppercase;
+        & a{
+            color: inherit;
+            padding: 5px 16px 5px 16px;
+        }
+    }
+    &__item.active{
+        color: var(--c-primary);
+        &::after{
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 2px;
+            bottom: -28px;
+            left: 0;
+            background-color: var(--c-primary);
+        }
+    }
+}

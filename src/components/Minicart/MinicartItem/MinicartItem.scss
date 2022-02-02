@@ -1,0 +1,107 @@
+.minicart-product {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 40px;
+    &__details {
+        flex-grow: 1;
+        padding-right: 12px;
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+    }
+    &__image {
+        flex: 0 0 auto;
+        width: 105px;
+        height: 137px;
+        & img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+}
+
+.mproduct {
+    color: var(--c-text);
+    padding-right: 10px;
+    &__name,
+    &__price {
+        font-family: "Raleway", sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    &__price {
+        font-weight: 500;
+        margin-bottom: 27px;
+    }
+}
+
+.minicart-attr {
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        & li:not(:last-child) {
+            margin-bottom: 8px;
+            margin-right: 8px;
+        }
+    }
+    &__row {
+        margin-bottom: 10px;
+    }
+    &__btn {
+        padding: 0 5px;
+        min-width: 24px;
+        height: 24px;
+        font-family: "Source Sans Pro", sans-serif;
+        text-transform: uppercase;
+        font-size: 14px;
+        background-color: var(--c-white);
+        border: 1px solid var(--c-black);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__btn.active {
+        color: var(--c-white);
+        background-color: var(--c-black);
+    }
+    &__btn.swatch{
+        border: 1px solid lightgray;
+    }
+    &__btn.swatch.active{
+        border: 2px solid var(--c-black);
+        transform: scale(120%);
+    }
+    &__btn.unavailable {
+        color: #a6a6a6;
+        border-color: #a6a6a6;
+    }
+}
+
+.m-amount {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 137px;
+    &__more,
+    &__less {
+        width: 24px;
+        height: 24px;
+        border: 1px solid var(--c-text);
+        cursor: pointer;
+    }
+    &__num {
+        font-family: "Raleway", sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        text-align: center;
+    }
+    &__more {
+        background: url("../../../assets/images/cart/plus-small.svg") no-repeat center;
+    }
+    &__less {
+        background: url("../../../assets/images/cart/minus-small.svg") no-repeat center;
+    }
+}

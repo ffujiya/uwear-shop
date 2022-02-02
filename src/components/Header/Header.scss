@@ -1,0 +1,25 @@
+.header {
+    position: relative;
+    &__container {
+        text-align: center;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__widgets{
+        width: 45%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    &__categories{
+        width: 45%;
+    }
+    &__logo{
+        width: 10%;
+        font-family: 'Supermercado One', cursive;
+        font-size: 35px;
+        color: var(--c-primary);
+    }
+}

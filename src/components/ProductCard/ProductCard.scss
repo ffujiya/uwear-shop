@@ -1,0 +1,59 @@
+.product-card {
+    position: relative;
+    padding: 16px;
+    width: 30%;
+    background-color: var(--c-white);
+    &:hover {
+        box-shadow: 0px 4px 35px rgba(168, 172, 176, 0.19);
+    }
+    &__image {
+        position: relative;
+        margin-bottom: 24px;
+        height: 330px;
+    }
+    &__image img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+    &__text,
+    &__price {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 160%;
+        color: var(--c-text);
+    }
+    &__price {
+        font-weight: 500;
+    }
+    &__outofstock {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(255, 255, 255, 0.5);
+        font-family: 'Raleway', sans-serif;
+        font-size: 24px;
+        line-height: 160%;
+        text-transform: uppercase;
+        color: #8D8F9A;
+    }
+}
+
+.product-card:hover .add-to-card {
+    position: absolute;
+    bottom: -26px;
+    right: 15px;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: url("../../assets/images/icons/add-to-card.svg") no-repeat center;
+    z-index: 10;
+}
