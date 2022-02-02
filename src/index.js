@@ -21,7 +21,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
       <ApolloProvider client={client}>
-        <BrowserRouter>
+        <BrowserRouter basename="uwear-shop">
           <App />
         </BrowserRouter>
       </ApolloProvider>
